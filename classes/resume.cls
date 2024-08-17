@@ -42,6 +42,10 @@
 \RequirePackage{indentfirst} % 最初の段落でインデントするためのパッケージ
 \RequirePackage{type1cm} % 文字の大きさを自由に変えるためのパッケージ
 
+\usepackage{enumitem} % 高機能番号付き箇条書きのパッケージ
+
+
+
 
 \ifluatex
     % LuaTeXを日本語で使うための設定
