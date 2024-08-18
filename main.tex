@@ -55,7 +55,7 @@ To enable reliable rotation， we are designing a mechanism to rotate the stone 
 デリバリロボットは2つの主要な機構で構成されている．
 1つ目は，カーリングストーンを目標速度で投球を行う押出機構である．
 2つ目は，投球されるストーンに指定された回転を付与する回転付加機構である．
-本報では，デリバリロボットにおける回転付加機構に関する検討と実装について述べる．
+本報では，デリバリロボットにおける回転付加機構について述べる．
 \section{回転付加機構について}
 回転付加機構は，ストーンに角速度を与える機構であり，目標角速度は約12 rpmである．
 % ストーンに回転を与えることにより，ストーンはカール（曲がる）する．
@@ -81,7 +81,7 @@ To enable reliable rotation， we are designing a mechanism to rotate the stone 
 
 \begin{figure}[h]
     \centering
-    \vspace{4pt} % 上部の余白を0に設定
+    \vspace{0pt} % 上部の余白を0に設定
     \begin{minipage}{0.4\linewidth}
         \centering
         \includegraphics[width=\linewidth]{figures/1.png}
@@ -95,7 +95,6 @@ To enable reliable rotation， we are designing a mechanism to rotate the stone 
         \caption{Urethane roller type}
         \label{fig:two}
     \end{minipage}
-    \hfill
     \begin{minipage}{0.4\linewidth}
         \centering
         \includegraphics[width=\linewidth]{figures/3.png}
@@ -114,11 +113,11 @@ To enable reliable rotation， we are designing a mechanism to rotate the stone 
     \vspace{0pt} % 上部の余白を0に設定
 \end{figure}
 \subsection{新型回転付加機構の開発}
-新たな回転付加機構について述べる．
+% 新たな回転付加機構について述べる．
 先行研究で発覚した問題を新たな回転付加の設計を行うことで解決を図った．
 現在設計を行っている回転付加機構のCAD図を図\ref{fig:new}に示す．
 問題解決のため，カーリングストーンのハンドルを把持する機構を用いて，ハンドルを用いて回転を与えることで，問題であった確実な回転を付与することを目指す．
-投球の際には，ボールスプラインを利用し，ハンドル把持部を上下させ，ストーンのハンドル部分との接触を外しストーンの投球を行う．
+% 投球の際には，ボールスプラインを利用し，ハンドル把持部を上下させ，ストーンのハンドル部分との接触を外しストーンの投球を行う．
 % \begin{figure}[b]
 %     \centering
 %     \hfill

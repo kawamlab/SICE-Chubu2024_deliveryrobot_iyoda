@@ -139,13 +139,13 @@
 \captionsetup[table]{labelsep=space, name=Table\ , font=normalsize}
 
 % sectionのフォントサイズを11ptに変更
-\RenewBlockHeading{section}{1}{font={\fontsize{12truept}{12truept}\selectfont\bfseries\raggedright}}
-\RenewBlockHeading{subsection}{2}{font={\fontsize{11truept}{11truept}\selectfont\bfseries\raggedright}}
+\RenewBlockHeading{section}{1}{font={\fontsize{12truept}{12truept}\selectfont\bfseries\raggedright},after_label_space=1truept}
+\RenewBlockHeading{subsection}{2}{font={\fontsize{11truept}{11truept}\selectfont\bfseries\raggedright},after_label_space=1truept}
 \RenewBlockHeading{subsubsection}{3}{font={\fontsize{10truept}{10truept}\selectfont\bfseries\raggedright}}
 
 % セクション前後の空白の設定
-\ModifyHeading{section}{before_space=5truept, after_space=2truept}
-\ModifyHeading{subsection}{before_space=5truept, after_space=2truept}
+\ModifyHeading{section}{before_space=2truept, after_space=2truept}
+\ModifyHeading{subsection}{before_space=2truept, after_space=2truept}
 \ModifyHeading{subsubsection}{before_space=5truept, after_space=2truept}
 % \ModifyHeading{section}{lines=1}
 % \ModifyHeading{subsection}{lines=1}
